@@ -1,0 +1,36 @@
+.card {
+  width: 100%;
+  /* border-left: 5px solid; */
+  position: relative;
+  z-index: 2;
+  text-decoration: none;
+  text-align: left;
+  letter-spacing: 0px;
+  transform-origin: left center;
+  border-radius: inherit;
+  border-left: 20px solid #484a9f;
+  background: #1d1d1f 0% 0% no-repeat padding-box;
+}
+
+.card:hover {
+  border-bottom: 0px;
+  color: #fff;
+}
+.card:after {
+  content: "";
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 0px;
+  border-top-right-radius: inherit;
+  border-bottom-right-radius: inherit;
+  position: absolute;
+  transition: all 0.5s ease 0s;
+  -webkit-transition: all 0.5s ease 0s;
+  z-index: -1;
+  background: #484a9f;
+}
+
+.card:hover:after {
+  width: 100%;
+}

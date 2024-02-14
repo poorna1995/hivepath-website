@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="250" viewBox="0 0 375 250">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="gray"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="1.206" y1="-0.361" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#02ada2"/>
+      <stop offset="1" stop-color="#06655f"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_35201" data-name="Group 35201" transform="translate(-4059 -4676)">
+    <rect id="Rectangle_8471" data-name="Rectangle 8471" width="375" height="250" rx="24" transform="translate(4059 4676)" fill="#3e64ff"/>
+    <g id="Group_35200" data-name="Group 35200" transform="translate(4154 4709)">
+      <rect id="Rectangle_8472" data-name="Rectangle 8472" width="156" height="184" rx="10" opacity="0.1" fill="url(#linear-gradient)"/>
+      <g id="Rectangle_8473" data-name="Rectangle 8473" fill="none" stroke="#fff" stroke-width="1">
+        <rect width="156" height="184" rx="10" stroke="none"/>
+        <rect x="0.5" y="0.5" width="155" height="183" rx="9.5" fill="none"/>
+      </g>
+    </g>
+    <rect id="Rectangle_8474" data-name="Rectangle 8474" width="145" height="35" rx="8" transform="translate(4246 4864)" fill="#fff"/>
+    <rect id="Rectangle_8475" data-name="Rectangle 8475" width="138" height="48" rx="5" transform="translate(4163 4724.629)" fill="url(#linear-gradient-2)"/>
+    <rect id="Rectangle_8476" data-name="Rectangle 8476" width="138" height="99" transform="translate(4163 4763.854)" fill="#fff"/>
+    <circle id="Ellipse_2221" data-name="Ellipse 2221" cx="5" cy="5" r="5" transform="translate(4173 4780.882)" fill="#e6e8ed"/>
+    <circle id="Ellipse_2223" data-name="Ellipse 2223" cx="5" cy="5" r="5" transform="translate(4173 4809.229)" fill="#e6e8ed"/>
+    <circle id="Ellipse_2224" data-name="Ellipse 2224" cx="5" cy="5" r="5" transform="translate(4173 4823.401)" fill="#e6e8ed"/>
+    <rect id="Rectangle_8477" data-name="Rectangle 8477" width="95" height="23" rx="5" transform="translate(4188 4780.552)" fill="#e6e8ed"/>
+    <rect id="Rectangle_8479" data-name="Rectangle 8479" width="95" height="6" rx="3" transform="translate(4188 4811.24)" fill="#e6e8ed"/>
+    <rect id="Rectangle_8480" data-name="Rectangle 8480" width="95" height="6" rx="3" transform="translate(4188 4825.426)" fill="#e6e8ed"/>
+    <text id="Feedback" transform="translate(4203 4749.345)" fill="#fff" font-size="12" font-family="Inter" font-weight="500" letter-spacing="0.03em"><tspan x="-29.255" y="0">Feedback</tspan></text>
+    <rect id="Rectangle_8481" data-name="Rectangle 8481" width="106" height="28" rx="8" transform="translate(4257 4732.441)" fill="#fff"/>
+    <path id="Polygon_71" data-name="Polygon 71" d="M6.217,0,8.082,3.929l4.352.541-3.2,2.97L10.06,11.7,6.217,9.61,2.375,11.7,3.2,7.44,0,4.47l4.352-.541Z" transform="translate(4300 4740.367)" fill="#db3f3f"/>
+    <path id="Polygon_72" data-name="Polygon 72" d="M6.217,0,8.082,3.929l4.352.541-3.2,2.97L10.06,11.7,6.217,9.61,2.375,11.7,3.2,7.44,0,4.47l4.352-.541Z" transform="translate(4314 4740.367)" fill="#db3f3f"/>
+    <path id="Polygon_75" data-name="Polygon 75" d="M6.217,0,8.082,3.929l4.352.541-3.2,2.97L10.06,11.7,6.217,9.61,2.375,11.7,3.2,7.44,0,4.47l4.352-.541Z" transform="translate(4329 4740.367)" fill="#d9d9d9"/>
+    <path id="Polygon_73" data-name="Polygon 73" d="M6.217,0,8.082,3.929l4.352.541-3.2,2.97L10.06,11.7,6.217,9.61,2.375,11.7,3.2,7.44,0,4.47l4.352-.541Z" transform="translate(4286 4740.367)" fill="#db3f3f"/>
+    <path id="Polygon_74" data-name="Polygon 74" d="M6.217,0,8.082,3.929l4.352.541-3.2,2.97L10.06,11.7,6.217,9.61,2.375,11.7,3.2,7.44,0,4.47l4.352-.541Z" transform="translate(4272 4740.367)" fill="#db3f3f"/>
+  </g>
+</svg>

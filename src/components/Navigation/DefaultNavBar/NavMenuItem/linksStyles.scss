@@ -1,0 +1,54 @@
+@use "sass:math";
+
+:root {
+  //   --line: #275efe;
+  --font-size: 1.2rem;
+  --duration: 0.44s;
+  --duration-line: 0.84s;
+}
+
+.link {
+  //   display: inline-block;
+  // padding: 0px;
+  position: relative;
+  text-decoration: none;
+  color: white;
+  line-height: 1.3;
+
+  div {
+    overflow: hidden;
+    &:first-child {
+      display: flex;
+      -moz-display: flex;
+      // overflow: hidden;
+      text-shadow: 0 var(--font-size) 0 white;
+      -moz-text-shadow: 0 var(--font-size) 0 white;
+    }
+    &:hover {
+      text-shadow: 0 var(--font-size) 0 #afd7f2;
+    }
+    span {
+      display: block;
+      backface-visibility: hidden;
+      font-style: normal;
+      transition: transform var(--duration) ease;
+      transform: translateY(var(--m, 0));
+      $i: 1;
+      @while $i < 12 {
+        &:nth-child(#{$i}) {
+          transition-delay: math.div($i, 20) + s;
+        }
+        $i: $i + 1;
+      }
+    }
+  }
+  &:hover {
+    background: transparent;
+    color: #afd7f2;
+
+    --m: calc(var(--font-size) * -1.1);
+    --line-d: var(--duration-line);
+    --line-x: 65.66%;
+    --line-offset: 63.5px;
+  }
+}
